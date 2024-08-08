@@ -71,4 +71,4 @@ If you have suggestions or improvements, feel free to submit a pull request or o
 
 ## Contact
 
-For any questions or support, please contact me: [Augastine](mailto:mulu.bytes@gmail.com).
+For any questions or support, please contact me: <a href="https://wa.me/+254742125032">Augastine</a>, or mail me at: mulu.bytes@gmail.com
