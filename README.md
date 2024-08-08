@@ -1,11 +1,8 @@
-Here's a simple `README.md` file that you can use for your Testimonials-Template project on GitHub:
-
-````markdown
-# Testimonials Template
+# Testimonials Template 1
 
 A clean, modern, and responsive testimonials slider template built with HTML, CSS, and JavaScript (Swiper.js). This template is designed to showcase client testimonials in a sleek, sliding carousel that transitions from right to left.
 
-![Testimonials Template Screenshot](images/screenshot.png)
+![Testimonials Template Screenshot](images/testimonial-screenshot.png)
 
 ## Features
 
@@ -25,29 +22,15 @@ A clean, modern, and responsive testimonials slider template built with HTML, CS
 ## Installation
 
 1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/YourUsername/Testimonials-Template.git
-   ```
-````
+   git clone https://github.com/MrBytes10/Testimonials-Template1.git
 
 2. **Navigate to the project directory:**
-
-   ```bash
    cd Testimonials-Template
-   ```
 
 3. **Open `index.html` in your preferred web browser:**
-
-   ```bash
    open index.html
-   ```
-
    or
-
-   ```bash
    double-click index.html
-   ```
 
 ## Usage
 
@@ -70,7 +53,7 @@ A clean, modern, and responsive testimonials slider template built with HTML, CS
 
 ## Screenshot
 
-![Testimonials Template Screenshot](images/screenshot.png)
+![Testimonials Template Screenshot](images/testimonial-screenshot.png)
 
 ## Contributing
 
@@ -82,24 +65,10 @@ If you have suggestions or improvements, feel free to submit a pull request or o
 4. Push to the branch: `git push origin feature/my-feature`.
 5. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Credits
 
 - [Swiper.js](https://swiperjs.com/) - The awesome library that powers the sliding testimonials.
 
 ## Contact
 
-For any questions or support, please contact [Your Name](mailto:your.email@example.com).
-
-```
-
-### Notes:
-1. **Update URLs**: Replace `https://github.com/YourUsername/Testimonials-Template.git` and other placeholders with your actual GitHub repository URL and your details.
-2. **Images**: Replace the `images/screenshot.png` with the correct path or name of the image showing the template preview.
-3. **Customization Instructions**: Adjust these based on how much you expect users to customize the template.
-
-This `README.md` provides a good overview and instructions for users to understand, use, and contribute to your project.
-```
+For any questions or support, please contact me: [Augastine](mailto:mulu.bytes@gmail.com).
