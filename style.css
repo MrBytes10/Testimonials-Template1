@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* General Styles */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* body Styles */
+#testimonials-section{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    background: linear-gradient(to right, hsl(186, 98%, 37%), hsl(170, 100%, 40%)); 
+    /*hsl= hue saturation lightness */
+    margin-bottom: 0%;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+
+}
+
+/*section-header*/
+.section-header{
+    text-align:center;
+    margin-bottom: 50px;
+}
+.section-header .title{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color:hsl(0, 0%, 100%);
+    line-height: 1.2;
+}
+
+/*Testimonials styling*/
+.testimonials{
+    padding: 100px 0;
+    position: relative; /* Ensure the container is positioned */
+}
+.testimonials-item{
+    background-color: hsl(0, 0%, 100%);
+    padding:30px;
+    border-radius: 30px;
+    margin-bottom: 30px; /* Added space to avoid overlapping */
+    min-height:200px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.testimonials-item .info{
+    display: flex;
+    align-items: center;
+}
+
+.testimonials-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    vertical-align: middle;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+
+.testimonials-item .name{
+font-size: 24px;
+text-transform: capitalize;
+font-weight:600;
+color: hsl(0, 0%, 0%);
+line-height: 1.2;
+}
+
+.testimonials-item .job{
+    text-transform: capitalize;
+    color: hsl(0, 0%, 40%);    
+}
+
+.testimonials-item p{
+    margin-top: 20px;
+    color: hsl(0, 0%, 20%);
+    flex-grow: 1;
+}
+
+.testimonials-item .rating{
+    margin-top: 15px;
+    font-size: 14px;
+    color: hsl(36, 88%, 66%); /*hsl= hue saturation lightness */
+}
+
+/* Pagination Styling */
+.testimonials-item .swiper-pagination{
+    position: absolute;
+    bottom: 10px; /* Adjust the space as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.testimonials .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50%; /* Make the bullets round */
+    opacity: 0.5; /* Make inactive bullets slightly transparent */
+    transition: opacity 0.3s ease;
+}
+
+.testimonials .swiper-pagination-bullet-active {
+    opacity: 1; /* Full opacity for active bullet */
+    background-color: hsl(0, 0%, 100%); /* Ensure the active bullet is visible */
+}
+
+/* Responsive Media queries Adjustments */
+@media (max-width: 767px) {
+    .testimonials-item {
+        padding: 20px;
+    }
+
+    .testimonials-item .name {
+        font-size: 20px;
+    }
+
+    .testimonials-item .job {
+        font-size: 14px;
+    }
+
+    .testimonials-item p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-header .title {
+        font-size: 28px;
+    }
+
+    .testimonials-item {
+        padding: 15px;
+    }
+
+    .testimonials-item .name {
+        font-size: 18px;
+    }
+
+    .testimonials-item .job {
+        font-size: 12px;
+    }
+
+    .testimonials-item p {
+        font-size: 12px;
+    }
+}
